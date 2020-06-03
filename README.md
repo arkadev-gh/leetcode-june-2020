@@ -1,2 +1,2 @@
-# leetcode-june-2020
-Solutions that I submitted for 30 days June leetcode challenge
+# Leetcode 30 days challenge
+Solutions that I have submitted for 30 days June 2020 leetcode challenge
