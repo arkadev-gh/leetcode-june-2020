@@ -11,8 +11,8 @@ public class TwoCityScheduling {
         // Sort the array based on the difference of cost(city A), cost(city B)
         Arrays.sort(costs, new Comparator<int[]>() {
             @Override
-            public int compare(int[] costA, int[] costB) {
-                return (costA[0] - costA[1]) - (costB[0] - costB[1]);
+            public int compare(int[] costThis, int[] costOther) {
+                return (costThis[0] - costThis[1]) - (costOther[0] - costOther[1]);
             }
         });
 
