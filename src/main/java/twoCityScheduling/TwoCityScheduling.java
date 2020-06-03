@@ -8,7 +8,7 @@ public class TwoCityScheduling {
         // Total number of people
         int numPeople = costs.length;
 
-        // Sort the array based on the difference of cost(city_1), cost(city_2)
+        // Sort the array based on the difference of cost(city A), cost(city B)
         Arrays.sort(costs, new Comparator<int[]>() {
             @Override
             public int compare(int[] costA, int[] costB) {
