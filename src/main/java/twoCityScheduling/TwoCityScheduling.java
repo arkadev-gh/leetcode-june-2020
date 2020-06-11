@@ -18,10 +18,10 @@ public class TwoCityScheduling {
 
         int totalCost = 0;
         // The first half belongs to city A
-        for(int i = 0; i < numPeople / 2; i++) totalCost += costs[i][0];
+        for (int i = 0; i < numPeople / 2; i++) totalCost += costs[i][0];
 
         // The second half belongs to city B
-        for(int i = numPeople / 2; i < numPeople; i++) totalCost += costs[i][1];
+        for (int i = numPeople / 2; i < numPeople; i++) totalCost += costs[i][1];
 
         return totalCost;
     }
